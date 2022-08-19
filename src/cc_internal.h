@@ -1,7 +1,7 @@
 #ifndef _C_CORE_INTERNAL_H_
 #define _C_CORE_INTERNAL_H_
 
-#include <c_core.h>
+#include <c_core/c_core.h>
 
 // errors
 void CC_Log_Log(uint64_t level, const char *file, uint64_t line, const char *format, ...);
